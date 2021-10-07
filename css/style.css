@@ -1,0 +1,78 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body, html{
+    height:100%;
+    font-size:16px;
+    font-family:"Lato", sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color:#666;
+  }
+  
+
+.footer{
+    text-align: center;
+}
+
+
+.intro-image{
+    background-image: url(../img/candles.jpg);
+
+    min-height: 100%;
+
+}
+
+.packaging-image{
+    background-image: url(../img/package.jpg);
+
+    min-height: 400px;
+
+}
+
+.tutorials-image{
+    background-image: url(../img/tutorial.jpg);
+
+    min-height: 400px;
+
+}
+
+
+
+.intro-imag, .tutorials-image, .packaging-image{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.packaging_text__textbox, .intro-text__textbox{
+    text-align:center;
+    padding:50px 80px;
+}
+
+.intro-text{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size:27px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+}
+
+.ptext{
+    background-color:#111;
+    color:#fff;
+    padding:20px;
+  }
+  
+  .ptext .border.trans{
+    background-color:transparent;
+  }
